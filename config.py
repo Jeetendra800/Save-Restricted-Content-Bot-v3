@@ -27,7 +27,7 @@ MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://Love:VElXsLXXzqtkUdeQ@cluste
 DB_NAME      = os.getenv("DB_NAME", "telegram downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "8429266518").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", ""))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", ""))
@@ -41,12 +41,12 @@ YT_COOKIES   = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
 # ─── USAGE LIMITS ───────────────────────────────────────────────────────────────
-FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
+FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "5"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+JOIN_LINK     = os.getenv("JOIN_LINK", "")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/@Love_9636")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
@@ -76,4 +76,5 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
